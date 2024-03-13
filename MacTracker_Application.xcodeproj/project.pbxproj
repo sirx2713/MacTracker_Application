@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		2E3273992B9086C700B9CEC7 /* MacTracker_ApplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3273982B9086C700B9CEC7 /* MacTracker_ApplicationApp.swift */; };
-		2E32739B2B9086C700B9CEC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32739A2B9086C700B9CEC7 /* ContentView.swift */; };
+		2E32739B2B9086C700B9CEC7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E32739A2B9086C700B9CEC7 /* MenuView.swift */; };
 		2E32739D2B9086CA00B9CEC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E32739C2B9086CA00B9CEC7 /* Assets.xcassets */; };
 		2E3273A02B9086CA00B9CEC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E32739F2B9086CA00B9CEC7 /* Preview Assets.xcassets */; };
+		2E3273A72B90871A00B9CEC7 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3273A62B90871A00B9CEC7 /* DataServices.swift */; };
+		2E3273A92B90EA5B00B9CEC7 /* allView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3273A82B90EA5B00B9CEC7 /* allView.swift */; };
+		2E6ED61C2B945D1A00437BB0 /* DesktopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ED61B2B945D1A00437BB0 /* DesktopView.swift */; };
+		2E6ED61E2B945F8300437BB0 /* GeneralView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ED61D2B945F8300437BB0 /* GeneralView.swift */; };
+		2E6ED6202B94631300437BB0 /* noteBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ED61F2B94631300437BB0 /* noteBooksView.swift */; };
+		2E6ED6222B946AAC00437BB0 /* xServersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ED6212B946AAC00437BB0 /* xServersView.swift */; };
+		2E6ED6262B946F7800437BB0 /* DevicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ED6252B946F7800437BB0 /* DevicesListView.swift */; };
+		2E6ED6282B9472AA00437BB0 /* SoftwareListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6ED6272B9472AA00437BB0 /* SoftwareListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2E3273952B9086C700B9CEC7 /* MacTracker_Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTracker_Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E3273982B9086C700B9CEC7 /* MacTracker_ApplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTracker_ApplicationApp.swift; sourceTree = "<group>"; };
-		2E32739A2B9086C700B9CEC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2E32739A2B9086C700B9CEC7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		2E32739C2B9086CA00B9CEC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E32739F2B9086CA00B9CEC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2E3273A62B90871A00B9CEC7 /* DataServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		2E3273A82B90EA5B00B9CEC7 /* allView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allView.swift; sourceTree = "<group>"; };
+		2E6ED61B2B945D1A00437BB0 /* DesktopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopView.swift; sourceTree = "<group>"; };
+		2E6ED61D2B945F8300437BB0 /* GeneralView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralView.swift; sourceTree = "<group>"; };
+		2E6ED61F2B94631300437BB0 /* noteBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteBooksView.swift; sourceTree = "<group>"; };
+		2E6ED6212B946AAC00437BB0 /* xServersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = xServersView.swift; sourceTree = "<group>"; };
+		2E6ED6252B946F7800437BB0 /* DevicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesListView.swift; sourceTree = "<group>"; };
+		2E6ED6272B9472AA00437BB0 /* SoftwareListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoftwareListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				2E3273982B9086C700B9CEC7 /* MacTracker_ApplicationApp.swift */,
-				2E32739A2B9086C700B9CEC7 /* ContentView.swift */,
+				2E32739A2B9086C700B9CEC7 /* MenuView.swift */,
+				2E3273A62B90871A00B9CEC7 /* DataServices.swift */,
+				2E3273A82B90EA5B00B9CEC7 /* allView.swift */,
+				2E6ED61D2B945F8300437BB0 /* GeneralView.swift */,
+				2E6ED61B2B945D1A00437BB0 /* DesktopView.swift */,
+				2E6ED61F2B94631300437BB0 /* noteBooksView.swift */,
+				2E6ED6212B946AAC00437BB0 /* xServersView.swift */,
+				2E6ED6252B946F7800437BB0 /* DevicesListView.swift */,
+				2E6ED6272B9472AA00437BB0 /* SoftwareListView.swift */,
 				2E32739C2B9086CA00B9CEC7 /* Assets.xcassets */,
 				2E32739E2B9086CA00B9CEC7 /* Preview Content */,
 			);
@@ -137,7 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E32739B2B9086C700B9CEC7 /* ContentView.swift in Sources */,
+				2E3273A92B90EA5B00B9CEC7 /* allView.swift in Sources */,
+				2E6ED6282B9472AA00437BB0 /* SoftwareListView.swift in Sources */,
+				2E3273A72B90871A00B9CEC7 /* DataServices.swift in Sources */,
+				2E6ED6222B946AAC00437BB0 /* xServersView.swift in Sources */,
+				2E6ED61C2B945D1A00437BB0 /* DesktopView.swift in Sources */,
+				2E6ED61E2B945F8300437BB0 /* GeneralView.swift in Sources */,
+				2E32739B2B9086C700B9CEC7 /* MenuView.swift in Sources */,
+				2E6ED6202B94631300437BB0 /* noteBooksView.swift in Sources */,
+				2E6ED6262B946F7800437BB0 /* DevicesListView.swift in Sources */,
 				2E3273992B9086C700B9CEC7 /* MacTracker_ApplicationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
